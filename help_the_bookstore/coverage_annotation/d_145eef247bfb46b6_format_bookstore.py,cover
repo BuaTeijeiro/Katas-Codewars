@@ -1,0 +1,6 @@
+> def format_bookstore(type_stock, categories):
+>     requested_stock = []
+>     for category in categories:
+>         requested_stock.append(category+' : '+str(type_stock[category]))
+>     requested_stock = ') - ('.join(requested_stock)
+>     return '(' + requested_stock + ')'
